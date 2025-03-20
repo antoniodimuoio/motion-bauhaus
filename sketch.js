@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background("pink");
+  background("white");
   noStroke();
 
   let yellow = "#FFD700";
@@ -28,7 +28,7 @@ function draw() {
   rect(x, y, size);
   //2
   fill(red);
-  let y2 = map(sin(frameCount * vel), -1, 1, size * 7, cy - -size);
+  let y2 = map(sin(frameCount * vel), -1, 1, size * 8.5, cy - -size);
   ellipse(x - size, y2, size);
   //3
   fill(blue);
@@ -64,7 +64,7 @@ function draw() {
   ellipse(x12, y - 3 * size, size);
 
   //13
-  let y13 = map(sin(frameCount * vel), -1, 1, size * 1.5, cy - 3 * size);
+  let y13 = map(sin(frameCount * vel), -1, 1, size * 2.5, cy - 4 * size);
   fill(blue);
   ellipse(x, y13, size);
 
