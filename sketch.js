@@ -13,7 +13,7 @@ function draw() {
   let blue = "#0000FF";
   let red = "#FF0000";
 
-  let size = height / 7;
+  let size = height / 9;
 
   let cx = width / 2;
   let cy = height / 2;
